@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30px;
+    color: #da2121;
+}
+
+ul {
+    position: relative;
+    left: 30px;
+    color: #da2121;
+}
+.reload {
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: #aa1c1c;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+        transition: all 0.3s ease-in-out;
+}
+
+.reload:hover {
+    background: #da2121;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reload:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.hide {
+    display: none;
+}
